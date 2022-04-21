@@ -1,0 +1,16 @@
+import java.util.*;
+public class ex1 {
+   public static void main(String[] args) {
+      
+	   int pay;
+	   int year;
+	  
+	   Scanner sc = new Scanner(System.in);
+	   year = sc.nextInt();
+	   
+	   if (year >= 0 && year<=3) {
+		pay = 2500-(2500*1);
+	   }
+	   System.out.println("내실돈은 "+pay+"원 입니다");
+      }
+}

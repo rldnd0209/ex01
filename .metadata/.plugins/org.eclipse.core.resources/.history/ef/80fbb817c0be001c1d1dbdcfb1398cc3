@@ -1,0 +1,55 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.*;
+
+public class MainClass {
+
+	public static void main(String[] args) throws IOException {
+		// TODO 자동 생성된 메소드 스텁
+		int count = 0;
+		{
+		File file = new File("data/data1.txt");
+		FileInputStream src = new FileInputStream(file);
+		Scanner sc = new Scanner(src);
+		
+		while(sc.hasNext()) {
+			String tmp = sc.next();
+			System.out.printf("%s " , tmp );
+			count++;
+		}
+		System.out.println("\ncount : " + count);
+		
+		sc.close();
+		src.close();
+		}
+		int[] nums = new int[count];
+		{
+			File file = new File("data/data1.txt");
+			FileInputStream src = new FileInputStream(file);
+			Scanner sc = new Scanner(src);
+			
+			for(int i=0; i<count; i++) {
+				String tmp = sc.next();
+				nums[i] = Integer.parseInt(tmp);
+			}
+			System.out.println("nums : " + Arrays.toString(nums));
+			sc.close();
+			src.close();
+		}
+		{
+			int key = 2, i;
+			  
+			  for (i=0; i<nums.length; i++)
+			   if (nums[i] == key)
+			    break;
+			  
+			  if (i<nums.length)
+			   System.out.printf("찾는 수 : %n 찾은 위치 : %n",key,i);
+			  else
+			   System.out.println("못찾음");
+			  
+			 }
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;new world&apos; 자원을 삭제합니다." deleteContents="true" description="&apos;new world&apos; 자원을 삭제합니다." element1="/new world" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1650242409351"/>
+</session>

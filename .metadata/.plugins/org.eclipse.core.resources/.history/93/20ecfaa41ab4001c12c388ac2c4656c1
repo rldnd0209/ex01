@@ -1,0 +1,29 @@
+
+public class Ex_01 {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+
+				char c = 'A';
+
+				int i = 50000;
+				
+				byte b = (byte)i;
+				
+				short d = (short)i;
+				
+				i = c;
+				
+				
+					
+				System.out.println(i);
+				System.out.println(d);
+				System.out.println(c);
+			
+					
+					
+			
+		
+	}
+
+}

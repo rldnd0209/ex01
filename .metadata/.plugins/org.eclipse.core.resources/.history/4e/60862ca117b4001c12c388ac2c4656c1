@@ -1,0 +1,19 @@
+
+public class Ex_01 {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+
+					final int i = 10;
+					
+					i = i++;
+					
+					System.out.println(i);
+			
+					
+					
+			
+		
+	}
+
+}

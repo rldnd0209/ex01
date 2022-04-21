@@ -1,0 +1,22 @@
+
+public class Ex_01 {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+
+				char c = 'A';
+
+				int i = 1;
+				
+				byte b = (byte)i;
+				
+					
+				System.out.println((int)i);
+			
+					
+					
+			
+		
+	}
+
+}
